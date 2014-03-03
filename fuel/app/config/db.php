@@ -1,10 +1,19 @@
 <?php
-/**
- * Use this file to override global defaults.
- *
- * See the individual environment DB configs for specific config information.
- */
 
-return array(
-
+retutn array(
+	'active' => 'testdb',
+	'testdb' => array(
+		'type' => 'mysql',
+		'connection' => array(
+			'hostname'		=> 'loaclhost',
+			'database'		=> 'fuel_test_db',
+			'username'		=> 'b112030',
+			'password'		=> 'vbserver',
+			'presistent'	=> FALSE,
+			),
+		'table_prefix'	=> '',
+		'charset'		=> 'utf8',
+		'caching'		=> false,
+		'profiling'		=> ture,
+		),
 );
