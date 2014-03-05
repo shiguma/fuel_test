@@ -2,6 +2,7 @@
 
 retutn array(
 	'active' => 'testdb',
+
 	'testdb' => array(
 		'type' => 'mysqli',
 		'connection' => array(
@@ -11,12 +12,11 @@ retutn array(
 			'username'		=> 'root',
 			'password'		=> 'vbserver',
 			'presistent'	=> FALSE,
-			),
+		),
 		'table_prefix'	=> '',
 		'charset'		=> 'utf8',
 		'caching'		=> false,
 		'profiling'		=> ture,
-		),
 	),
 );
 
