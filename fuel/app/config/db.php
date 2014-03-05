@@ -3,7 +3,7 @@
 retutn array(
 	'active' => 'testdb',
 	'testdb' => array(
-		'type' => 'mysql',
+		'type' => 'mysqli',
 		'connection' => array(
 			'hostname'		=> 'loaclhost',
 			'database'		=> 'fuel_test_db',
