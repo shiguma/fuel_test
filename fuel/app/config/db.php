@@ -1,21 +1,11 @@
 <?php
 
-retutn array(
-	'active' => 'testdb',
-
-	'testdb' => array(
-		'type' => 'mysqli',
-		'connection' => array(
-			'hostname'		 => 'loaclhost',
-			'socket'		 => '/var/lib/mysql/mysql.sock',
-			'database'		 => 'fuel_test_db',
-			'username'		 => 'root',
-			'password'		 => 'vbserver',
-			'presistent'	 => FALSE,
+return array(
+	'default' => array(
+		'connection'  => array(
+			'dsn'        => 'mysql:host=localhost;dbname=fuel_test_db',
+			'username'   => 'b112030',
+			'password'   => 'vbserver'
 		),
-		'table_prefix'	 => '',
-		'charset'		 => 'utf8',
-		'caching'		 => false,
-		'profiling'		 => ture,
 	),
 );
