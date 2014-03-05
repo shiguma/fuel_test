@@ -1,3 +1,5 @@
+<?php
+
 retutn array(
 	'active' => 'testdb',
 
@@ -17,4 +19,3 @@ retutn array(
 		'profiling'		 => ture,
 	),
 );
-
