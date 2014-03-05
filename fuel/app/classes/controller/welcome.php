@@ -1,4 +1,5 @@
 <?php
+use \Model\Test;
 /**
  * Fuel is a fast, lightweight, community driven PHP5 framework.
  *
@@ -30,7 +31,8 @@ class Controller_Welcome extends Controller
 	 */
 	public function action_index()
 	{
-		return Response::forge(View::forge('welcome/index'));
+		$data['test'] = Test::get_results();
+		return Response::forge(View::forge('welcome/index',$data));
 	}
 
 	/**
