@@ -17,4 +17,6 @@ retutn array(
 		'caching'		=> false,
 		'profiling'		=> ture,
 		),
+	),
 );
+
