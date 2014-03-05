@@ -6,8 +6,9 @@ retutn array(
 		'type' => 'mysqli',
 		'connection' => array(
 			'hostname'		=> 'loaclhost',
+			'socket'		=> '/var/lib/mysql/mysql.sock',
 			'database'		=> 'fuel_test_db',
-			'username'		=> 'b112030',
+			'username'		=> 'root',
 			'password'		=> 'vbserver',
 			'presistent'	=> FALSE,
 			),
