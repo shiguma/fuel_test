@@ -6,11 +6,12 @@
  */
 
 return array(
+	'active' => 'default',
 	'default' => array(
 		'connection'  => array(
 			'dsn'        => 'mysql:host=localhost;dbname=fuel_test_db',
-			'username'   => 'b112030',
-			'password'   => 'vbserver',
+			'username'   => 'root',
+			'password'   => 'vbserver'
 		),
 	),
 );
